@@ -1,0 +1,68 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-06-15 19:43:35.470539",
+ "default_view": "List",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "frappe_url",
+  "api_key",
+  "api_secret",
+  "download_time",
+  "amount_file_saved"
+ ],
+ "fields": [
+  {
+   "fieldname": "frappe_url",
+   "fieldtype": "Data",
+   "label": "Frappe URL"
+  },
+  {
+   "fieldname": "api_key",
+   "fieldtype": "Data",
+   "label": "API Key"
+  },
+  {
+   "fieldname": "api_secret",
+   "fieldtype": "Data",
+   "label": "API Secret"
+  },
+  {
+   "fieldname": "download_time",
+   "fieldtype": "Select",
+   "label": "Download Backup for Every",
+   "options": "1 Week\n1 Hour\n2 Hour\n4 Hour\n6 Hour\n8 Hour\n12 Hour\n1 Day\n1 Month"
+  },
+  {
+   "fieldname": "amount_file_saved",
+   "fieldtype": "Int",
+   "label": "Amount of Downloaded File Saved"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "issingle": 1,
+ "links": [],
+ "modified": "2024-06-15 19:43:35.470539",
+ "modified_by": "Administrator",
+ "module": "Auto Download Backup",
+ "name": "Auto Download Backup Setting",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "print": 1,
+   "read": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "track_changes": 1,
+ "track_seen": 1
+}

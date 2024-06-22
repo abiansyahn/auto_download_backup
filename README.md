@@ -1,6 +1,6 @@
 ## Auto Download Backup
 
-Automatically download backup file from another erpnext server
+To download backup from an erpnext server to another server automatically for backup plan
 
 #### License
 

@@ -1,7 +1,7 @@
 app_name = "auto_download_backup"
 app_title = "Auto Download Backup"
-app_publisher = "Abiansyah"
-app_description = "Automatically download backup file from another erpnext server"
+app_publisher = "abiansyahn"
+app_description = "To download backup from an erpnext server to another server automatically for backup plan"
 app_email = "abiansyahn@gmail.com"
 app_license = "mit"
 # required_apps = []

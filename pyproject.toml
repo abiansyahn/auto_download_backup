@@ -1,9 +1,9 @@
 [project]
 name = "auto_download_backup"
 authors = [
-    { name = "Abiansyah", email = "abiansyahn@gmail.com"}
+    { name = "abiansyahn", email = "abiansyahn@gmail.com"}
 ]
-description = "Automatically download backup file from another erpnext server"
+description = "To download backup from an erpnext server to another server automatically for backup plan"
 requires-python = ">=3.10"
 readme = "README.md"
 dynamic = ["version"]
