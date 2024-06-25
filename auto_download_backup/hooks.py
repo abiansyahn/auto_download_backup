@@ -141,7 +141,7 @@ scheduler_events = {
 # 		"auto_download_backup.tasks.daily"
 # 	],
 	"hourly": [
-		"auto_download_backup.auto_download_backup.schedule_backup"
+		"auto_download_backup.auto_download_backup.api.schedule_backup"
 	],
 # 	"weekly": [
 # 		"auto_download_backup.tasks.weekly"
