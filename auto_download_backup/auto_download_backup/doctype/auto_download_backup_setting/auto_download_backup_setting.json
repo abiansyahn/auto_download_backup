@@ -10,23 +10,30 @@
   "api_key",
   "api_secret",
   "download_time",
-  "amount_file_saved"
+  "amount_file_saved",
+  "last_backup_time"
  ],
  "fields": [
   {
    "fieldname": "frappe_url",
    "fieldtype": "Data",
-   "label": "Frappe URL"
+   "in_list_view": 1,
+   "label": "Frappe URL",
+   "reqd": 1
   },
   {
    "fieldname": "api_key",
    "fieldtype": "Data",
-   "label": "API Key"
+   "in_list_view": 1,
+   "label": "API Key",
+   "reqd": 1
   },
   {
    "fieldname": "api_secret",
    "fieldtype": "Data",
-   "label": "API Secret"
+   "in_list_view": 1,
+   "label": "API Secret",
+   "reqd": 1
   },
   {
    "fieldname": "download_time",
@@ -35,15 +42,22 @@
    "options": "1 Week\n1 Hour\n2 Hour\n4 Hour\n6 Hour\n8 Hour\n12 Hour\n1 Day\n1 Month"
   },
   {
+   "default": "10",
    "fieldname": "amount_file_saved",
    "fieldtype": "Int",
    "label": "Amount of Downloaded File Saved"
+  },
+  {
+   "fieldname": "last_backup_time",
+   "fieldtype": "Datetime",
+   "label": "Last Backup Time",
+   "read_only": 1
   }
  ],
  "index_web_pages_for_search": 1,
  "issingle": 1,
  "links": [],
- "modified": "2024-06-15 19:43:35.470539",
+ "modified": "2024-06-25 07:38:47.342226",
  "modified_by": "Administrator",
  "module": "Auto Download Backup",
  "name": "Auto Download Backup Setting",

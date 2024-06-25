@@ -133,23 +133,23 @@ app_license = "mit"
 # Scheduled Tasks
 # ---------------
 
-# scheduler_events = {
+scheduler_events = {
 # 	"all": [
 # 		"auto_download_backup.tasks.all"
 # 	],
 # 	"daily": [
 # 		"auto_download_backup.tasks.daily"
 # 	],
-# 	"hourly": [
-# 		"auto_download_backup.tasks.hourly"
-# 	],
+	"hourly": [
+		"auto_download_backup.auto_download_backup.schedule_backup"
+	],
 # 	"weekly": [
 # 		"auto_download_backup.tasks.weekly"
 # 	],
 # 	"monthly": [
 # 		"auto_download_backup.tasks.monthly"
 # 	],
-# }
+}
 
 # Testing
 # -------
